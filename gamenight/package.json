@@ -1,0 +1,32 @@
+{
+  "name": "gamenight",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "buffer": "^5.0.5",
+    "firebase": "^3.6.10",
+    "react": "15.4.2",
+    "react-native": "0.41.2",
+    "react-native-xml2js": "^1.0.2",
+    "react-navigation": "^1.0.0-beta.5",
+    "sax": "^1.2.2",
+    "stream": "0.0.2",
+    "timers": "^0.1.1",
+    "xml2js": "^0.4.17",
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
